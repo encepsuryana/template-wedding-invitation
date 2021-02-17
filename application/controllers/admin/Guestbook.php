@@ -142,7 +142,7 @@ class Guestbook extends CI_Controller
 			}
 
 		} else {
-			redirect(base_url().'admin/login');
+			redirect(base_url().'admin');
 		}
 	}
 

@@ -1,5 +1,5 @@
 <?php if ($this->session->userdata('id')) {
-	redirect(base_url().'admin/web');
+	redirect(base_url().'admin/login');
 } ?>
 
 <!DOCTYPE html>
