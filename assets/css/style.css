@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Niconne|Seaweed+Script&display=swap');
+
+body {
+  font-family: 'La Belle Aurore', cursive;
+}
+
+#mainNav .navbar-brand {
+  color: rgb(98, 91, 0);
+  font-family: 'Niconne', cursive;
+  font-size: 30px;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgb(98, 91, 0);
+  font-family: 'Niconne', cursive;
+  font-size: 18px;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav.navbar-scrolled .navbar-brand:hover,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(212, 175, 55);
+}
+
+#mainNav .navbar-brand:hover {
+  color: rgb(212, 175, 55);
+}
+
+hr.divider {
+  color: rgb(212, 175, 55);
+}
+
+.py-3 {
+  padding: 5px !important;
+}
+
+.text-muted {
+
+}
+
+.heading-style h2 {
+  text-align: left !important;
+  font-family: 'Seaweed Script', cursive;
+  margin-top: 40px;
+}
+
+.heading-style p {        
+  margin-top: 25px;
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.heading-style-name p {
+ font-family: 'Niconne', cursive;
+ font-size: 50px !important;
+ margin: 0;
+}
+
+.heading-style-name span {     
+  font-size: 17px;
+}
+
+.and-space span {
+ font-family: 'Niconne', cursive;
+ margin: 0 25px;
+ font-size: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-180 {
+  margin-bottom: 170px !important;
+}
+
+#mainNav.navbar-scrolled {
+  background-color: #ffffffcc;
+}
+
+.invitation-style h1 {
+  font-family: 'Seaweed Script', cursive;
+  font-weight: 800;
+}
+
+.invitation-style p {
+  margin: 20px 0;
+  font-family: 'Seaweed Script', cursive;
+  font-size: 20px;
+}
+
+.invitation-style h2 {
+  font-weight: 700;
+  font-family: 'Seaweed Script', cursive;
+  text-align: center;
+} 
+
+.invitation-style h4 {
+  font-weight: 700;
+  font-family: 'Seaweed Script', cursive;
+  text-align: center;
+  margin: 25px 10px;
+} 
+
+.date-style h2 {
+  margin-top: 50px;
+  font-family: 'Seaweed Script', cursive;
+  font-weight: 700;
+}
+
+.date-style span {
+  font-family: 'Seaweed Script', cursive;
+  font-size: 18px;
+}
+
+.date-wedding-style h1 {
+ font-family: 'Seaweed Script', cursive;
+ font-weight: 800;
+}
+
+.page-section {
+  padding: 3rem;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.bg-primary {
+  background-color:rgb(212, 175, 55) !important;
+}
+
+.page-section2 {
+  background: linear-gradient(to bottom, rgb(223, 184, 90) 0%, rgba(223, 184, 9, 0.5) 100%), url("../img/bg-masthead2.jpg");
+}
+.btn-xl {
+ font-family: 'Seaweed Script', cursive;
+ margin-top: 25px;
+ padding: 10px 35px;
+ text-transform: none;
+ font-size: 20px;
+}
+
+.wedding-maps iframe {
+ margin: 0;
+ width: 118.2%;
+ position: relative;
+ margin-bottom: -5px;
+ margin-left: -95px;
+}
+
+.invitation-maps h2 {
+  margin-bottom: 25px;
+  font-family: 'Seaweed Script', cursive;
+  text-align: center;
+  font-weight: 800;
+}
+
+.guestbook-style h2 {
+ margin-bottom: 25px;
+ font-family: 'Seaweed Script', cursive;
+ text-align: center;
+ font-weight: 800;
+}
+
+.guestbook-style p {
+  font-family: 'Seaweed Script', cursive;
+  text-align: center;
+  font-size: 20px;
+}
+
+.guestbook-card {
+  margin-top: 195px;
+  position: relative;
+}
+
+.guestbook-card-style {
+  padding: 0 5px;
+  margin: 5px 0;
+}
+
+.form-control::placeholder {
+  font-family: 'Seaweed Script', cursive;
+  margin-left: 10px;
+}
+
+.wedding-guestbook {
+  padding: 0 25%;
+}
+.form-control:focus {
+  border-color: rgb(212, 175, 55);
+  box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, .4);
+}
+.contact-form .form-control {
+  border-radius:1rem;
+}
+.contact-image {
+  text-align: center;
+}
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form {
+  padding: 5%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+
+.contact-form .btnContact {
+  font-family: 'Seaweed Script', cursive;
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: rgb(212, 175, 55) !important;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: rgb(212, 175, 55);
+  border: none;
+  cursor: pointer;
+}
+
+.box {
+  padding:60px 0px;
+}
+
+.box-part {
+  border-radius: 0;
+  padding: 15px 10px;
+  border: 1px solid #eee;
+  min-height: 350px;
+  background-image: url("../img/guestbook-card.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: round;
+  background-size: cover;
+}
+
+.box-part h2{
+  font-family: 'Seaweed Script', cursive;
+  margin-top: 10px;
+}
+
+.box-part span{
+  font-family: 'Seaweed Script', cursive;
+  font-size: 20px;
+}
+.text {
+  margin:20px 0px;
+}
+
+.text-white-75 {
+  color: rgba(98, 91, 0, 0.75);
+}
+
+.text-white {
+  color: rgb(98, 91, 0);
+}
+
+.fa{
+ color: rgb(212, 175, 55) !important
+}
+
+.title h3 {
+  text-transform: capitalize !important;
+}
+
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.alert-error {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  position: fixed;
+  right: 0;
+  top: 65px;
+  z-index: 1;
+  border-color: transparent;
+}
+
+.alert-success {
+  padding: 20px;
+  background-color: rgb(212, 175, 55);
+  color: white;
+  position: fixed;
+  right: 0;
+  top: 65px;
+  z-index: 1;
+  border-color: transparent;
+}
+
+.closebtn {
+ margin-left: 15px;
+ color: white;
+ font-weight: bold;
+ float: right;
+ font-size: 35px;
+ line-height: 20px;
+ cursor: pointer;
+ transition: 0.3s;
+ margin-top: 5px;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+/** Responsive Mobile Device **/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mb-180 {
+    margin-bottom: 50px !important;
+  }
+  .date-style h2 {
+    margin-top: 25px;
+  }
+  .date-wedding-style h1 {
+    margin-top: 20px;
+  }
+
+  hr.divider {
+    display: none;
+  }
+  .wedding-maps iframe {
+   margin: 0;
+   width: 114.5%;
+   position: relative;
+   margin-left: -24px;
+ }
+ .page-section {
+  padding: 50px 10px;
+}
+
+.heading-style p {
+  font-size: 17px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .wedding-maps iframe {
+   margin: 0;
+   width: 121.5%;
+   position: relative;
+   margin-bottom: -5px;
+   margin-left: -120px;
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+} 
+
