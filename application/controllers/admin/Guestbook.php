@@ -117,9 +117,6 @@ class Guestbook extends CI_Controller
 					// Updating Data
 					$form_data = array(
 						'nama_lengkap'	=> $_POST['nama_lengkap'],
-						'sosial_media'	=> $_POST['sosial_media'],
-						'kontak'	  	=> $_POST['kontak'],
-						'hadir'	  		=> $_POST['hadir'],
 						'ucapan'       	=> $_POST['ucapan']
 					);
 					$this->Model_guestbook->update($id,$form_data);

@@ -149,13 +149,13 @@
 				<ul class="sidebar-menu">
 					<li class="treeview <?php if($final_url_other == 'admin'.'/wedding') {echo 'active';} ?>">
 						<a href="<?php echo base_url(); ?>admin/wedding">
-							<i class="fa fa-cogs" aria-hidden="true"></i><span>Data Weddings</span>
+							<i class="fa fa-cogs" aria-hidden="true"></i><span>Data Pengantin</span>
 						</a>
 					</li>
 
 					<li class="treeview <?php if(($final_url_other == 'admin'.'/guestbook') || ($final_url_other == 'admin'.'/guestbook/add') || ($final_url_other == 'admin'.'/guestbook/edit')) {echo 'active';} ?>">
 						<a href="<?php echo base_url(); ?>admin/guestbook">
-							<i class="fa fa-address-card-o" aria-hidden="true"></i><span>Guestbook</span>
+							<i class="fa fa-address-card-o" aria-hidden="true"></i><span>Data Guestbook</span>
 						</a>
 					</li>
 

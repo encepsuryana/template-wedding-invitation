@@ -39,7 +39,7 @@ class Wedding extends CI_Controller
 			$data['undangan'] = $this->Model_wedding->show();
 
 
-			if(isset($_POST['form1'])) {
+			if(isset($_POST['form_wedding'])) {
 				$form_data = array(
 					'kalimat_1' 			=> $_POST['kalimat_1'],
 					'kalimat_2' 			=> $_POST['kalimat_2'],
@@ -60,6 +60,8 @@ class Wedding extends CI_Controller
 					'ket_tempat' 			=> $_POST['ket_tempat'],
 					'alamat_lengkap' 		=> $_POST['alamat_lengkap'],
 					'google_maps' 			=> $_POST['google_maps'],
+					'google_calendar'		=> $_POST['google_calendar'],
+					'google_map_direction'  => $_POST['google_map_direction'],
 					'kata_pernikahan'		=> $_POST['kata_pernikahan'],
 					'doa_pernikahan' 		=> $_POST['doa_pernikahan']
 				);

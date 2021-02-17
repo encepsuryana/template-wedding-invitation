@@ -42,11 +42,10 @@ if(!$this->session->userdata('id')) {
 					<table id="example1" class="table table-bordered table-striped">
 						<thead>
 							<tr>
-								<th>No</th>
-								<th>Nama Lengkap</th>
-								<th>Kontak / Sosial media</th>
-								<th width="300">Ucapan</th>
-								<th>Action</th>
+								<th width="50">No</th>
+								<th width="200">Nama Lengkap</th>
+								<th width="500">Ucapan</th>
+								<th width="100">Action</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -58,7 +57,6 @@ if(!$this->session->userdata('id')) {
 								<tr>
 									<td><?php echo $i; ?></td>
 									<td><?php echo $row['nama_lengkap']; ?></td>
-									<td><?php echo $row['kontak']; ?> / <?php echo $row['sosial_media']; ?></td>
 									<td><?php echo $row['ucapan']; ?></td>
 									<td>
 										<a href="<?php echo base_url(); ?>admin/guestbook/edit/<?php echo $row['id']; ?>" class="btn btn-primary btn-xs">Edit</a>

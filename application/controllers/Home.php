@@ -19,7 +19,6 @@ class Home extends CI_Controller {
 			$valid = 1;
 
 			$this->form_validation->set_rules('nama_lengkap', 'Nama Lengkap', 'trim|required');
-			$this->form_validation->set_rules('kontak', 'Kontak/No. Telp', 'trim|required');
 			$this->form_validation->set_rules('ucapan', 'Ucapan', 'trim|required');
 
 			if($this->form_validation->run() == FALSE) {
@@ -32,9 +31,6 @@ class Home extends CI_Controller {
 
 				$form_data = array(
 					'nama_lengkap'	=> $_POST['nama_lengkap'],
-					'sosial_media'	=> $_POST['sosial_media'],
-					'kontak'	  	=> $_POST['kontak'],
-					'hadir'	  		=> $_POST['hadir'],
 					'ucapan'       	=> $_POST['ucapan']
 				);
 				$this->Model_home->add($form_data);
@@ -42,8 +38,6 @@ class Home extends CI_Controller {
 				$header['success'] = 'Terimakasih atas semua do’a yang terpanjatkan untuk kebahagiaan dan kesempurnaan pernikahan Kami. Hanya do’a yang dapat Kami sampaikan, semoga semuanya juga bahagia';
 
 				unset($_POST['nama_lengkap']);
-				unset($_POST['sosial_media']);
-				unset($_POST['kontak']);
 				unset($_POST['ucapan']);
 			}
 		} 

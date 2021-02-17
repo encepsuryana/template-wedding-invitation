@@ -42,18 +42,6 @@ if(!$this->session->userdata('id')) {
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="" class="col-sm-2 control-label">Kontak <span>*</span></label>
-						<div class="col-sm-8">
-							<input type="text" autocomplete="off" class="form-control" name="kontak" value="<?php if(isset($_POST['kontak'])){echo $_POST['kontak'];} ?>">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="" class="col-sm-2 control-label">Sosial Media <span>*</span></label>
-						<div class="col-sm-8">
-							<input type="text" autocomplete="off" class="form-control" name="sosial_media" value="<?php if(isset($_POST['sosial_media'])){echo $_POST['sosial_media'];} ?>">
-						</div>
-					</div>
-					<div class="form-group">
 						<label for="" class="col-sm-2 control-label">Ucapan <span>*</span></label>
 						<div class="col-sm-8">
 							<textarea class="form-control" name="ucapan" style="height:100px;"><?php if(isset($_POST['ucapan'])){echo $_POST['ucapan'];} ?></textarea>

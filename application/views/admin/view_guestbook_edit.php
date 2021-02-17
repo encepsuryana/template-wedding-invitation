@@ -42,19 +42,6 @@ if(!$this->session->userdata('id')) {
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="" class="col-sm-2 control-label">Kontak <span>*</span></label>
-						<div class="col-sm-8">
-							<input type="text" class="form-control" name="kontak" value="<?php echo $guestbook['kontak']; ?>">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="" class="col-sm-2 control-label">Sosial Media <span>*</span></label>
-						<div class="col-sm-8">
-							<input type="text" class="form-control" name="sosial_media" value="<?php echo $guestbook['sosial_media']; ?>">
-						</div>
-					</div>
-
-					<div class="form-group">
 							<label for="" class="col-sm-2 control-label">Ucapan <span>*</span></label>
 							<div class="col-sm-9">
 								<textarea class="form-control" name="ucapan" style="height:100px;"><?php echo $guestbook['ucapan']; ?></textarea>

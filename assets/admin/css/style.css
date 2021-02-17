@@ -537,6 +537,7 @@ iframe {
 .login-box-body {
 	border-radius: 20px;
 	box-shadow: 0 2px 6px 0 rgba(49,53,59,.12);
+	padding: 10px 15px 10px 15px !important;
 }
 
 input[type=submit].btn-block {
